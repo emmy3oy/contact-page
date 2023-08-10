@@ -1,0 +1,90 @@
+.contact-form{
+    display: flex;
+    background: #E9EEFE;
+}
+.contact-page{
+    margin: 4rem;
+    padding-left: 10rem;
+    
+}
+.contact-page h1{
+    font-weight: 900;
+}
+.form-section{
+    display: inline-flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    width: 700px;
+    background: #F5F5F5;
+    margin: 2rem; 
+}
+.form-section>input[type='email']{
+    width:400px;
+    height: 2rem;
+}
+.form-section>input{
+    max-width: 60%;
+}
+.form-section .btn{
+    width: 161px;
+    height: 50px;
+    border-radius: 9px;
+    background: #0c39db;
+    margin-left: 1rem;
+    color: #fff;
+    }
+    .form-section .btn:hover{
+        background: #041861;
+        margin-left: 1rem;
+        color: #8f6565;  
+    }
+#cont{
+    margin: 3rem;
+    }
+#icon{
+    padding-right: 2rem;
+}
+#cont span{
+    margin-left: 4rem;
+}
+
+
+@media (max-width: 993px) {
+    .contact-form{
+        width: 70%;
+        display: inline-block;
+        background: none;
+    }
+   /* .contact-page{
+    display:inline-block;
+    margin: 4rem;
+    padding: 2rem;
+    width: 70%;
+   } */
+   .form-section{
+    max-width: 90%;
+   }
+
+}
+ @media (max-width: 576px) {
+      .contact-form{
+        width: 90%
+      }
+    .contact-page{
+         width: 90%;
+        /* display: inline-flex;  */
+        margin: 1rem;
+        padding: 2rem
+       }
+       .form-section{
+        max-width: 90%;
+       }
+    
+       .form-section, textarea,  input{
+             width: 90%;
+         }
+   
+ }
